@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+
+:root{
+    --main-aside-bg: rgba(28, 29, 34, 1);
+
+    --gray: rgba(28, 29, 34, 0.5);
+    --pre-light-gray: rgba(28, 29, 34, 0.1);
+    --light-gray: rgba(28, 29, 34, 0.08);
+    --very-light-gray: rgba(28, 29, 34, 0.04);
+    --b-gray: rgba(136, 141, 167, 1);
+    --r-black: rgba(28, 29, 34, 1);
+
+    --orange-line: rgba(255, 160, 72, 1);
+    --green-line:rgba(120, 215, 0, 1);
+    --red-line: rgba(255, 121, 121, 1);
+
+    --deadline-red-body: rgba(255, 121, 121, 0.1);
+    --deadline-red-text: rgba(255, 121, 121, 1);
+
+    --deadline-orange-body: rgba(255, 160, 72, 0.1);
+    --deadline-orange-text: rgba(255, 160, 72, 1);
+
+    --scroll-track: #ffffff;
+    --scroll-thumb: #c0c0c0;
+
+    --head-text: rgba(49, 57, 87, 1);
+    --main-text:rgba(12, 20, 33, 1);
+    --link: rgba(30, 74, 233, 1);
+    
+    --input-border: rgba(212, 215, 227, 1);
+    --input-bg: rgba(247, 251, 255, 1);
+
+    --button-bg: rgba(22, 45, 58, 1);
+}
+
+html, body, .main-site-block, .right-side-content, main, .kanban, #app{
+    height: 100%;
+}
+html, body, .main-site-block, .right-side-content, main{
+    overflow-x: hidden;
+}
+
+
+body{
+    margin: 0 0;
+    font-family: "Exo 2", sans-serif;
+    overflow-x: hidden;
+}
+
+h1{
+    margin: 0;
+    margin: 0.67em 0;
+}
+
+h2{
+    color: var(--r-black);
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+h3{
+    color: var(--r-black);
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+h4{
+    color: var(--r-black);
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+h5{
+    color: var(--r-black);
+    margin: 0;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+h6{
+    color: var(--r-black);
+    margin: 0;
+    margin-top: 6px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+p{
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
